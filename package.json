@@ -1,6 +1,6 @@
 {
   "name": "object-to-yjs",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple utility that syncs / converts JS objects and arrays into `Y.Map` and `Y.Array` respectively",
   "main": "dist/index.mjs",
   "scripts": {
