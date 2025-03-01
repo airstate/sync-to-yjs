@@ -1,7 +1,7 @@
 {
   "name": "object-to-yjs",
   "version": "1.0.0",
-  "description": "",
+  "description": "A simple utility that syncs / converts JS objects and arrays into `Y.Map` and `Y.Array` respectively",
   "main": "dist/index.mjs",
   "scripts": {
     "build": "tsc --project tsconfig.build.json",
@@ -19,9 +19,22 @@
   "peerDependencies": {
     "yjs": ">=13"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "yjs", "sync", "convert"
+  ],
+  "contributors": [
+    {
+      "name": "Omran Jamal",
+      "email": "omran@omranjamal.me",
+      "url": "https://omranjamal.me"
+    },
+    {
+      "name": "AirState",
+      "email": "hello@airstate.dev",
+      "url": "https://airstate.dev"
+    }
+  ],
+  "license": "MIT",
   "include": [
     "dist/**/*"
   ]
