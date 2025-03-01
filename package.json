@@ -1,0 +1,28 @@
+{
+  "name": "object-to-yjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.mjs",
+  "scripts": {
+    "build": "tsc --project tsconfig.build.json",
+    "build:watch": "tsc --project tsconfig.build.json --watch --preserveWatchOutput",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "typescript": "5.4.3",
+    "jest": "29.7.0",
+    "@types/jest": "29.5.12",
+    "ts-jest": "29.1.2",
+    "prettier": "3.2.5",
+    "microdiff": "1.5.0"
+  },
+  "peerDependencies": {
+    "yjs": ">=13"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "include": [
+    "dist/**/*"
+  ]
+}
