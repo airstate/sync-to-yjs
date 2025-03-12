@@ -1,8 +1,10 @@
 {
   "name": "sync-to-yjs",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "A simple utility that syncs / converts JS objects and arrays into `Y.Map` and `Y.Array` respectively",
   "main": "dist/index.mjs",
+  "types": "dist/index.d.mts",
+  "type": "module",
   "scripts": {
     "build": "tsc --project tsconfig.build.json",
     "build:watch": "tsc --project tsconfig.build.json --watch --preserveWatchOutput",
@@ -16,11 +18,17 @@
     "prettier": "3.2.5",
     "microdiff": "1.5.0"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/airstate/sync-to-yjs.git"
+  },
   "peerDependencies": {
     "yjs": ">=13"
   },
   "keywords": [
-    "yjs", "sync", "convert"
+    "yjs",
+    "sync",
+    "convert"
   ],
   "contributors": [
     {
